@@ -8,6 +8,14 @@ Local Route Monitor 是一个 Windows 桌面工具，用来诊断“哪些应用
 - 百度网盘 / Baidu Netdisk
 - OpenClaw / Telegram API
 
+## Screenshots
+
+### 总览
+![Overview](docs/screenshots/overview-hong-kong.jpg)
+
+### 应用出口监控 / 路由诊断
+![App Monitor](docs/screenshots/app-monitor-diagnostics.jpg)
+
 ## 当前能力
 
 ### 1. 应用出口监控
@@ -42,6 +50,9 @@ Local Route Monitor 是一个 Windows 桌面工具，用来诊断“哪些应用
 - **总览**：状态总览、刷新结果摘要、VPN 状态、测速、稳定性探测
 - **应用出口监控**：单独查看所有应用出口卡片
 
+## Release Notes
+- 见：[`docs/RELEASE_NOTES.md`](docs/RELEASE_NOTES.md)
+
 ## 运行方式
 
 ### 直接运行（开发）
@@ -72,6 +83,9 @@ src/LocalRouteMonitor/
   NetworkInspector.cs
   RouteDiagnosticsCache.cs
   ...
+docs/
+  RELEASE_NOTES.md
+  screenshots/
 run.bat
 README.md
 ```
