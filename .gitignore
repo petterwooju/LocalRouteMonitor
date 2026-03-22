@@ -1,0 +1,20 @@
+# Build outputs
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Temporary local verification folders
+tmp_build*/
+
+# User/system files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+Thumbs.db
+.DS_Store
+
+# Local app cache / diagnostics
+*.log
