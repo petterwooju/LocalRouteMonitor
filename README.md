@@ -47,6 +47,14 @@ Local Route Monitor 是一个 Windows 桌面工具，用来诊断“哪些应用
 
 ## 运行方式
 
+### 正式版（日常推荐）
+- 桌面快捷方式：`LocalRouteMonitor（正式版）`
+- 正式版路径：`dist/win-x64/LocalRouteMonitor.exe`
+- 当前已完成以下配置：
+  - 正式版 exe 默认请求管理员权限
+  - Windows 已配置“登录后自动以最高权限启动”
+  - 桌面快捷方式已切到正式版启动链路
+
 ### 直接运行（开发）
 ```bat
 run.bat
@@ -62,6 +70,12 @@ dotnet run
 ```powershell
 cd src/LocalRouteMonitor
 dotnet build
+```
+
+### 发布正式版
+```powershell
+cd src/LocalRouteMonitor
+dotnet publish -c Release -r win-x64 --self-contained false -o ..\..\dist\win-x64
 ```
 
 ## 目录结构
